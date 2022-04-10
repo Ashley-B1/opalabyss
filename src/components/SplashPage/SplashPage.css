@@ -1,0 +1,77 @@
+.splash-container {
+  border: solid red 2px;
+  max-width: 125rem;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+header {
+  border: solid blue 2px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  width: 100%
+}
+
+.nav-bar {
+  border: solid green 2px;
+  display: flex;
+  height: 10rem;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.logo {
+  display: block;
+  width: 8rem;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+}
+
+.nav-item {
+  margin-right: 2rem;
+}
+
+.nav-item:last-child {
+  margin-right: 0;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  transition: opacity .3s;
+  /* color: white; */
+}
+
+.nav-link:hover {
+  opacity: .6;
+}
+
+.splash-page {
+  border: solid yellow 2px;
+  width: 100%;
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom right, #44789E, #0E446B);
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}
+
+.splash-page::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: inherit;
+  height: 100vh;
+  background-image: url(../../images/splash/bg-pat.png);
+  background-size: cover;
+  opacity: .7;
+  z-index: -1;
+}
