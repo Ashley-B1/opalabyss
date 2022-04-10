@@ -12,6 +12,7 @@ const SplashPage = () => {
         <div className='splash-container'>
           <nav className='nav-bar'>
             <a className='logo-box' href='https://www.google.com/'>
+              <h2 className='logo-name'>Opal Abyss</h2>
               <img src={logoImg} alt='logo' className='logo' />
             </a>
 

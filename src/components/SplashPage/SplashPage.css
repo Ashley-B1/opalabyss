@@ -1,12 +1,10 @@
 .splash-container {
-  border: solid red 2px;
   max-width: 125rem;
   margin: 0 auto;
   padding: 0 1.5rem;
 }
 
 header {
-  border: solid blue 2px;
   position: absolute;
   top: 0;
   left: 0;
@@ -15,11 +13,22 @@ header {
 }
 
 .nav-bar {
-  border: solid green 2px;
   display: flex;
   height: 10rem;
   align-items: flex-end;
   justify-content: space-between;
+}
+
+.logo-box {
+  display: flex;
+  align-items: center;
+}
+
+.logo-name {
+  font-weight: 600;
+  background: -webkit-linear-gradient(#A4AFD0, #F389C2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .logo {
@@ -44,7 +53,7 @@ header {
   font-size: 1.2rem;
   text-transform: uppercase;
   transition: opacity .3s;
-  /* color: white; */
+  color: white;
 }
 
 .nav-link:hover {
@@ -52,7 +61,6 @@ header {
 }
 
 .splash-page {
-  border: solid yellow 2px;
   width: 100%;
   min-height: 100vh;
   background-image: linear-gradient(to bottom right, #44789E, #0E446B);
@@ -74,4 +82,25 @@ header {
   background-size: cover;
   opacity: .7;
   z-index: -1;
+}
+
+.splash-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.content-details {
+  max-width: 80%
+}
+
+.title {
+  font-size: 6rem;
+  color:#fff;
+  margin-bottom: 1rem;
+}
+
+.splash-description {
+  color: #A4AFD0;
+  margin-bottom: 2.5rem;
 }
