@@ -6,6 +6,10 @@ import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from 'react-icons/f
 import logoImg from '../../images/splash/logo.png';
 import mainBlob from '../../images/splash/bigBlob.png';
 import smallBlob from '../../images/splash/blob2.png';
+import blob1 from '../../images/splash/blob1.png';
+import blob2 from '../../images/splash/blob3.png';
+import blob3 from '../../images/splash/blob4.png';
+import blob4 from '../../images/splash/blob5.png';
 
 const SplashPage = () => {
   return (
@@ -13,7 +17,7 @@ const SplashPage = () => {
       <header>
         <div className='splash-container'>
           <nav className='nav-bar'>
-            <a className='logo-box' href='https://www.google.com/'>
+            <a className='logo-box hue-shift' href='https://www.google.com/'>
               <h2 className='logo-name'>Opal Abyss</h2>
               <img src={logoImg} alt='logo' className='logo' />
             </a>
@@ -50,7 +54,7 @@ const SplashPage = () => {
 
               <div className='search'>
                 <input className='search-bar' type='text' placeholder="Your Email Address" required />
-                <input className='search-btn' type='button' value="Join" />
+                <input className='search-btn hue-shift' type='button' value="Join" />
               </div>
 
               <div className='sm-list'>
@@ -69,12 +73,17 @@ const SplashPage = () => {
               </div>
             </div>
 
-            <div className='image-group'>
+            <div className='image-group hue-shift'>
               <img className='blob-large' alt='large blob' src={mainBlob} />
-              <img className='blob-large' alt='large blob' src={smallBlob} />
+              <img className='blob-small' alt='small blob' src={smallBlob} />
             </div>
           </div>
         </div>
+
+        <img className='blob blob-2 hue-shift' alt='side-blob' src={blob2} />
+        <img className='blob blob-1 hue-shift' alt='side-blob' src={blob1} />
+        <img className='blob blob-3 hue-shift' alt='side-blob' src={blob3} />
+        <img className='blob blob-4 hue-shift' alt='side-blob' src={blob4} />
       </section>
     </>
   )

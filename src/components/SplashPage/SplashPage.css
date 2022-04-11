@@ -4,6 +4,10 @@
   padding: 0 1.5rem;
 }
 
+.hue-shift {
+  animation: hue-shift 9s infinite alternate;
+}
+
 header {
   position: absolute;
   top: 0;
@@ -106,7 +110,6 @@ header {
 }
 
 .search {
-  border: red solid 2px;
   margin-bottom: 2.5rem;
 }
 
@@ -151,5 +154,83 @@ header {
 }
 
 .sm-link:hover {
-  background-image: linear-gradient(to right, );
+  background-image: linear-gradient(to top right, #D62BE7, #6FD1C6);
+  color: #fff;
+}
+
+.image-group {
+  text-align: center;
+  position: relative;
+}
+
+.blob-large {
+  max-width: 100%;
+  animation: move-up 2s infinite alternate;
+}
+
+.blob-small {
+  width: 30%;
+  position: absolute;
+  top: 9rem;
+  left: 5rem;
+  z-index: 10;
+  animation: move-down 2s infinite alternate;
+}
+
+.blob {
+  position: absolute;
+  z-index: 1;
+}
+
+.blob-1 {
+  top: -11rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.blob-2 {
+  width: 14%;
+  top: 10rem;
+  left: -7rem;
+}
+
+.blob-3 {
+  width: 40%;
+  right: 10rem;
+  bottom: -15rem;
+}
+
+.blob-4 {
+  left: -7rem;
+  bottom: -17rem;
+}
+
+@keyframes move-up {
+  from {
+    transform: translateY(0);
+  }
+
+  to {
+    transform: translateY(2rem);
+  }
+}
+
+@keyframes move-down {
+  from {
+    transform: translateY(0);
+  }
+
+  to {
+    transform: translateY(-2rem);
+  }
+}
+
+@keyframes hue-shift {
+  from {
+    filter: hue-rotate(0);
+  }
+
+  to {
+    filter: hue-rotate(360deg);
+  }
 }
