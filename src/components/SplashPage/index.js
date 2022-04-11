@@ -47,6 +47,13 @@ const SplashPage = () => {
               <p className='splash-description'>
                 Lollipop I love croissant croissant I love pudding cheesecake. I love lemon drops jelly apple pie I love toffee candy sweet roll chupa chups.
               </p>
+
+              <div className='search'>
+                <input className='search-bar' type='text' placeholder="Dive into possibilities..." required />
+                <input className='search-btn' type='button' value="Join" />
+              </div>
+
+
             </div>
           </div>
         </div>
