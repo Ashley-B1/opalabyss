@@ -109,28 +109,25 @@ header {
   margin-bottom: 2.5rem;
 }
 
-.search {
+.splash-about {
   margin-bottom: 2.5rem;
+  display: flex;
+  justify-content: center;
 }
 
-.search input {
+.splash-about input {
   border: none;
   border-radius: 5rem;
   padding: 2rem;
   outline: none;
 }
 
-.search-bar {
-  width: 100%;
-  width: calc(100% - .5rem);
-}
-
-.search-btn {
-  width: 10rem;
+.about-btn {
+  width: 15rem;
+  font-size: 2rem;
   background-image: linear-gradient(to right, #A4AFD0, #F389C2);
   color: #fff;
   cursor: pointer;
-  margin-left: -10rem;
 }
 
 .search-btn:hover {
@@ -139,6 +136,7 @@ header {
 
 .sm-list {
   display: flex;
+  justify-content: center;
 }
 
 .sm-link {

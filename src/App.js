@@ -1,10 +1,17 @@
+import {
+  Routes,
+  Route,
+} from 'react-router-dom';
+
 import SplashPage from "./components/SplashPage";
 
 function App() {
   return (
-    <div className="App">
-      <SplashPage />
-    </div>
+    <>
+      <Routes>
+        <Route path='/' element={<SplashPage />} />
+      </Routes>
+    </>
   );
 }
 

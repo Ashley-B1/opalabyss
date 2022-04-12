@@ -52,9 +52,8 @@ const SplashPage = () => {
                 Lollipop I love croissant croissant I love pudding cheesecake. I love lemon drops jelly apple pie I love toffee candy sweet roll chupa chups.
               </p>
 
-              <div className='search'>
-                <input className='search-bar' type='text' placeholder="Your Email Address" required />
-                <input className='search-btn hue-shift' type='button' value="Join" />
+              <div className='splash-about'>
+                <input className='about-btn hue-shift' type='button' value="Learn More" />
               </div>
 
               <div className='sm-list'>
