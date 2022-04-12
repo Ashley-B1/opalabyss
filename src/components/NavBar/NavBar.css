@@ -53,3 +53,27 @@ header {
 .nav-link:hover {
   opacity: .6;
 }
+
+
+@media screen and (max-width: 768px) {
+  .nav-bar {
+    align-items: center;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .nav-bar {
+    flex-direction: column;
+    height: 5rem;
+    height: fit-content;
+  }
+
+  .logo-box {
+    margin: 2rem 0;
+  }
+
+  .nav-item {
+    margin-right: 2.5rem;
+  }
+}
