@@ -1,0 +1,55 @@
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  width: 100%
+}
+
+.nav-bar {
+  display: flex;
+  height: 10rem;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.logo-box {
+  display: flex;
+  align-items: center;
+}
+
+.logo-name {
+  font-weight: 600;
+  background: -webkit-linear-gradient(#A4AFD0, #F389C2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.logo {
+  display: block;
+  width: 8rem;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+}
+
+.nav-item {
+  margin-right: 2rem;
+}
+
+.nav-item:last-child {
+  margin-right: 0;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  transition: opacity .3s;
+  color: white;
+}
+
+.nav-link:hover {
+  opacity: .6;
+}
