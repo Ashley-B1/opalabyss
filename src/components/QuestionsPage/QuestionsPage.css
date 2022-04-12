@@ -1,0 +1,23 @@
+.questions-page {
+  width: 100%;
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom right, #44789E, #0E446B);
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}
+
+.questions-page::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: inherit;
+  height: 100vh;
+  background-image: url(../../images/splash/bg-pat.png);
+  background-size: cover;
+  opacity: .7;
+  z-index: -1;
+}

@@ -176,3 +176,40 @@
     filter: hue-rotate(360deg);
   }
 }
+
+
+@media screen and (max-width: 768px) {
+  .blob-1 {
+    top: -17rem;
+    left: 20%;
+  }
+
+  .blob-2 {
+    display: none
+  }
+
+  .blob-3 {
+    display: none;
+  }
+
+  .content-details {
+    order: 1;
+    max-width: 100%
+  }
+
+  .title {
+    font-size: 3.5rem;
+  }
+
+  .description {
+    font-size: 1.4rem;
+  }
+
+  .image-group {
+    margin-top: 10rem;
+  }
+
+  .blob-small {
+    width: 30%
+  }
+}

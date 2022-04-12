@@ -5,6 +5,7 @@ import {
 
 import SplashPage from "./components/SplashPage";
 import AboutPage from './components/AboutPage';
+import QuestionsPage from './components/QuestionsPage';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Routes>
         <Route path='/' element={<SplashPage />} />
         <Route path='/about' element={<AboutPage />} />
+        <Route path='/faq' element={<QuestionsPage />} />
       </Routes>
     </>
   );
