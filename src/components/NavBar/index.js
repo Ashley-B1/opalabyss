@@ -21,9 +21,9 @@ const NavBar = () => {
                 </Link>
               </li>
               <li className='nav-item'>
-                <a href='https://www.google.com/' className='nav-link'>
+                <Link to='/contact' className='nav-link'>
                   Contact
-                </a>
+                </Link>
               </li>
               <li className='nav-item'>
                 <Link to='/faq' className='nav-link'>
