@@ -9,10 +9,10 @@ const NavBar = () => {
     <header>
         <div className='splash-container'>
           <nav className='nav-bar'>
-            <a className='logo-box hue-shift' href='https://www.google.com/'>
+            <Link to='/' className='logo-box hue-shift'>
               <h2 className='logo-name'>Opal Abyss</h2>
               <img src={logoImg} alt='logo' className='logo' />
-            </a>
+            </Link>
 
             <ul className='nav-list'>
               <li className='nav-item'>

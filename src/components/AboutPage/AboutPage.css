@@ -1,11 +1,11 @@
 .about-container {
-  border: solid purple 2px;
   width: 100%;
   min-height: 100vh;
   background-image: linear-gradient(to bottom right, #44789E, #0E446B);
   position: relative;
   overflow: hidden;
   display: flex;
+  justify-content: center;
   align-items: center;
   z-index: 1;
 }
@@ -21,4 +21,88 @@
   background-size: cover;
   opacity: .7;
   z-index: -1;
+}
+
+.about {
+  background: url(../../images/about/main-photo.jpeg) no-repeat;
+  background-size: 55%;
+  overflow: hidden;
+  padding: 100px 0;
+  min-height: 80vh;
+  margin-top: 10rem;
+}
+
+.inner-section {
+  width: 55%;
+  border-radius: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  float: right;
+  background-color: #298F7D;
+  padding: 8.5rem;
+  box-shadow: 12px 12px 8px rgba(0, 0, 0, 0.3);
+}
+
+.about-title {
+  margin-bottom: 30px;
+  font-size: 2.8rem;
+  font-weight: 600;
+}
+
+
+.about-content {
+  font-size: 1.6rem;
+  color: #212121;
+  line-height: 24px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.info button {
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: 2px;
+  border: none;
+  border-radius: 20px;
+  padding: 8px;
+  width: 14rem;
+  cursor: pointer;
+}
+
+.info button:hover {
+  transition: 2s;
+  background-image: linear-gradient(to left, #A4AFD0, #F389C2);
+}
+
+
+@media screen and (max-width: 120px) {
+  .inner-section {
+    padding:80px
+  }
+}
+
+
+@media screen and (max-width: 1000px) {
+  .about {
+    background-size: 80%;
+    padding: 100px 40px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .about {
+    display: flex;
+    flex-direction: column;
+    padding: 0%;
+  }
+
+  .inner-section {
+    border: solid yellow 2px;
+    width: 80%;
+    padding: 5px;
+    margin-left: 70px;
+    margin-top: 150px;
+  }
+
 }
