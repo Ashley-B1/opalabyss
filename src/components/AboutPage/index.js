@@ -13,7 +13,7 @@ const AboutPage = () => {
         <div className='inner-section'>
           <h1 className='about-title'>About Us</h1>
           <p className='about-content'>
-            Lemon drops sesame snaps jelly beans toffee cookie. Cotton candy tiramisu dragée I love sesame snaps. Halvah jujubes danish pastry cake. Gummies cheesecake cookie I love pastry I love. I love muffin jujubes cake croissant lollipop chocolate cake lollipop. Marshmallow carrot cake sweet cotton candy tart cookie chocolate bar dessert. Oat cake fruitcake chocolate apple pie cake sesame snaps toffee sweet roll sweet. Jujubes cake sweet topping carrot cake jelly beans I love liquorice.
+            Opal Abyss was found by me, Skye Brown, a natural born weirdo who's not afraid to explore alternative outlooks on life. It started when I was around 13 years old, I was on some weird phenomenon website. That's when I discovered the story of Black Dahlia, a young woman who was found butchered in Leimert Park in Los Angeles. Little did I know I would soon go down the rabbit hole of strange occurrences and conspiracies that will last over a decade.
           </p>
           <div className='info'>
             <button onClick={() => setShow(!show)} className='about-btn hue-shift'>
@@ -23,13 +23,16 @@ const AboutPage = () => {
             {show && (
               <div className='click-more'>
                 <p className='more-info'>
-                  Bonbon pastry jelly beans pastry gummi bears chocolate cake marshmallow. Soufflé bonbon cake marshmallow jujubes. Soufflé sweet chocolate chocolate bar jelly powder. Cotton candy gummies toffee liquorice caramels sweet roll. Tart danish sweet roll jelly-o tiramisu ice cream candy cake danish. Caramels gummi bears tart gummies toffee powder tart apple pie biscuit. Cheesecake soufflé tootsie roll bonbon gummies cotton candy gingerbread. Tootsie roll pudding bonbon shortbread chocolate cake candy canes gummies lollipop. Pastry icing liquorice cake cake donut. Carrot cake marzipan cake carrot cake jujubes sweet roll biscuit. Carrot cake sweet roll pie donut powder sugar plum chupa chups jelly beans. Bear claw jelly beans brownie cookie powder powder caramels donut cheesecake.
+                  I know what you're wondering, "Skye, why did you name it Opal Abyss?" A couple of years ago, I started my spiritual journey and felt drawn to witchcraft, gemology, astrology, and other alternative practices. I studied the different spiritual meanings behind gems and found opal is the stone that encourages self-expression and confidence. Growing up I was bullied a lot for being weird, but now as an adult I appreciate all my quirks. In a sense I found my opal, and now I'm determined to help other people find theirs. Abyss is just an alias for the rabbit hole that is all things conspiracy and abnormal.
                 </p>
                 <p className='more-info'>
-                  Bonbon pastry jelly beans pastry gummi bears chocolate cake marshmallow. Soufflé bonbon cake marshmallow jujubes. Soufflé sweet chocolate chocolate bar jelly powder. Cotton candy gummies toffee liquorice caramels sweet roll. Tart danish sweet roll jelly-o tiramisu ice cream candy cake danish. Caramels gummi bears tart gummies toffee powder tart apple pie biscuit. Cheesecake soufflé tootsie roll bonbon gummies cotton candy gingerbread. Tootsie roll pudding bonbon shortbread chocolate cake candy canes gummies lollipop. Pastry icing liquorice cake cake donut. Carrot cake marzipan cake carrot cake jujubes sweet roll biscuit. Carrot cake sweet roll pie donut powder sugar plum chupa chups jelly beans. Bear claw jelly beans brownie cookie powder powder caramels donut cheesecake.
+                  Opal Abyss is meant to help people embrace their quirks and curiosity. The overall message is to not be afraid to explore the dark and weird side of yourself. Life is not meant to be monotonous, humanity's strength is our individuality. In my personal opinion, we are all like puzzle pieces. We share the same picture/experience, but different pieces/outlook. None of us are built "wrong", we are designed to be unique. Life isn't about cutting the pieces to make it fit, but to simply find your place in this big puzzle we call life. 
                 </p>
                 <p className='more-info'>
-                  Bonbon pastry jelly beans pastry gummi bears chocolate cake marshmallow. Soufflé bonbon cake marshmallow jujubes. Soufflé sweet chocolate chocolate bar jelly powder. Cotton candy gummies toffee liquorice caramels sweet roll. Tart danish sweet roll jelly-o tiramisu ice cream candy cake danish. Caramels gummi bears tart gummies toffee powder tart apple pie biscuit. Cheesecake soufflé tootsie roll bonbon gummies cotton candy gingerbread. Tootsie roll pudding bonbon shortbread chocolate cake candy canes gummies lollipop. Pastry icing liquorice cake cake donut. Carrot cake marzipan cake carrot cake jujubes sweet roll biscuit. Carrot cake sweet roll pie donut powder sugar plum chupa chups jelly beans. Bear claw jelly beans brownie cookie powder powder caramels donut cheesecake.
+                This is a developing website, so there will be updates in due time. I will be adding posts at a later date. If you have any recommendations for a post, please go to the *contact page and send over your recommendation.
+                </p>
+                <p className='more-info'>
+                  Have fun weirdos 🤪!
                 </p>
               </div>
             )}

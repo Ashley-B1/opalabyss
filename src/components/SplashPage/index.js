@@ -23,7 +23,7 @@ const SplashPage = () => {
             <div className='content-details'>
               <h1 className='title'>Let's Explore The Unknown</h1>
               <p className='splash-description'>
-                Lollipop I love croissant croissant I love pudding cheesecake. I love lemon drops jelly apple pie I love toffee candy sweet roll chupa chups.
+                Do you want to know what's really out there? Opal Abyss is your gateway to all things conspiracy and weird.
               </p>
 
               <div className='splash-about'>
@@ -33,10 +33,10 @@ const SplashPage = () => {
               </div>
 
               <div className='sm-list'>
-                <a rel="noreferrer noopener" target="_blank" className='sm-link' href="https://www.google.com/">
+                <a rel="noreferrer noopener" target="_blank" className='sm-link' href="https://www.linkedin.com/in/ashley-skye-brown-8386291a9/">
                   <FaLinkedinIn />
                 </a>
-                <a rel="noreferrer noopener" target="_blank" className='sm-link' href="https://www.google.com/">
+                <a rel="noreferrer noopener" target="_blank" className='sm-link' href='https://github.com/Ashley-B1'>
                   <FaGithub />
                 </a>
               </div>
