@@ -2,7 +2,7 @@ import React from 'react';
 import './SplashPage.css';
 import { Link } from 'react-router-dom';
 
-import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
+import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 
 import mainBlob from '../../images/splash/bigBlob.png';
 import smallBlob from '../../images/splash/blob2.png';
@@ -33,17 +33,11 @@ const SplashPage = () => {
               </div>
 
               <div className='sm-list'>
-                <a className='sm-link' href="https://www.google.com/">
-                  <FaTwitter />
-                </a>
-                <a className='sm-link' href="https://www.google.com/">
-                  <FaInstagram />
-                </a>
-                <a className='sm-link' href="https://www.google.com/">
-                  <FaFacebookF />
-                </a>
-                <a className='sm-link' href="https://www.google.com/">
+                <a rel="noreferrer noopener" target="_blank" className='sm-link' href="https://www.google.com/">
                   <FaLinkedinIn />
+                </a>
+                <a rel="noreferrer noopener" target="_blank" className='sm-link' href="https://www.google.com/">
+                  <FaGithub />
                 </a>
               </div>
             </div>
