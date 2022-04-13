@@ -1,7 +1,7 @@
 export const Data = [
   {
     question: "Who murdered Black Dahlia?",
-    answer: "Even though he was never charged with the crime, George Hodel is universally accepted as the Black Dahlia killer. He was a surgeon and was obsessed with dark surrealism art. In other words, he fit the description",
+    answer: "Even though he was never charged with the crime, George Hodel is universally accepted as the Black Dahlia killer. He was a surgeon and obsessed with dark surrealism art. In other words, he fit the description",
   },
 
   {
