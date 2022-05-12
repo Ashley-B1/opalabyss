@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import './AboutPage.css';
 
 import NavBar from '../NavBar';
@@ -29,7 +30,7 @@ const AboutPage = () => {
                   Opal Abyss is meant to help people embrace their quirks and curiosity. The overall message is to not be afraid to explore the dark and weird side of yourself. Life is not meant to be monotonous, humanity's strength is our individuality. In my personal opinion, we are all like puzzle pieces. We share the same picture/experience, but different pieces/outlook. None of us are built "wrong", we are designed to be unique. Life isn't about cutting the pieces to make it fit, but to simply find your place in this big puzzle we call life. 
                 </p>
                 <p className='more-info'>
-                This is a developing website, so there will be updates in due time. I will be adding posts at a later date. If you have any recommendations for a post, please go to the *contact page and send over your recommendation.
+                This is a developing website, so there will be updates in due time. I will be adding posts at a later date. If you have any recommendations for a post, please go to the <Link className='contact-link' to='/contact'>contact page</Link> and send over your recommendation.
                 </p>
                 <p className='more-info'>
                   Have fun weirdos 🤪!

@@ -87,6 +87,11 @@
   line-height: 24px;
 }
 
+.contact-link {
+  color: #0E446B;
+  text-decoration: underline;
+  font-weight: 600;
+}
 
 @media screen and (max-width: 120px) {
   .inner-section {
