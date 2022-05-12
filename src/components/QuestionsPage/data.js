@@ -17,6 +17,6 @@ export const Data = [
 
   {
     question: "What’s a conspiracy you believe is absolutely true?",
-    answer:"I know we are living in a simulation. Whenever there are updates it causes the Mandela Effect. I think hyper-intelligent beings built our universe as an experiment and things just went out of control. Now we killing each other over of money and the color of our skin. The devs must be sick of us LMAO.",
+    answer:"I know we are living in a simulation. Whenever there are updates it causes the Mandela Effect. I think hyper-intelligent beings built our universe as an experiment and things just went out of control. Now we are killing each other over money and the color of our skin. The devs must be sick of us LMAO.",
   },
 ];
