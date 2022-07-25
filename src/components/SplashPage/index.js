@@ -2,7 +2,7 @@ import React from 'react';
 import './SplashPage.css';
 import { Link } from 'react-router-dom';
 
-import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
+import { FaGithub } from 'react-icons/fa';
 
 import mainBlob from '../../images/splash/bigBlob.png';
 import smallBlob from '../../images/splash/blob2.png';
@@ -33,9 +33,6 @@ const SplashPage = () => {
               </div>
 
               <div className='sm-list'>
-                <a rel="noreferrer noopener" target="_blank" className='sm-link' href="https://www.linkedin.com/in/ashley-skye-brown-8386291a9/">
-                  <FaLinkedinIn />
-                </a>
                 <a rel="noreferrer noopener" target="_blank" className='sm-link' href='https://github.com/Ashley-B1'>
                   <FaGithub />
                 </a>
